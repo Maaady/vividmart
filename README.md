@@ -1,4 +1,4 @@
-#Vividmart
+# Vividmart
 VividMart is a modern product marketplace web application designed to help users browse and filter VR avatar products seamlessly. It highlights dynamic category filtering, responsive UI, and product detail pages, making it an efficient and elegant solution for virtual product browsing.
 This project demonstrates proficiency in Next.js, Tailwind CSS, and clean, scalable coding practices.
 
