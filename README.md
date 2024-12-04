@@ -9,8 +9,6 @@ This project demonstrates proficiency in Next.js, Tailwind CSS, and clean, scala
 - Pixel-perfect Design: Matches the provided Figma designs to the pixel.
 - Secure Deployment: Password-protected live site for testing.
 # 📂 Project Structure
-- less
-- Copy code
 - /components
  -  Header.tsx           // Header with category filtering
   - ProductCard.tsx      // Product card component
@@ -32,7 +30,6 @@ To modify the password:
 
 Update the environment variable in .env or Vercel settings:
 env
-Copy code
 NEXT_PUBLIC_SITE_PASSWORD = your_new_password
 # 📝 Usage Instructions
 Marketplace Page:
