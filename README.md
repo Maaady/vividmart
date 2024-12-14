@@ -9,15 +9,28 @@ This project demonstrates proficiency in Next.js, Tailwind CSS, and clean, scala
 - Pixel-perfect Design: Matches the provided Figma designs to the pixel.
 - Secure Deployment: Password-protected live site for testing.
 # 📂 Project Structure
-- /components
- -  Header.tsx           // Header with category filtering
-  - ProductCard.tsx      // Product card component
-- /pages
--   index.tsx            // Main marketplace page
- -  product/[id].tsx     // Dynamic product details page
-- /styles
- -  globals.css          // Tailwind CSS global styles
-- /middleware.ts         // Password protection middleware
+
+vividmart/
+├── public/
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── ProductCard.js
+│   │   └── ProductList.js
+│   ├── pages/
+│   │   ├── index.js
+│   │   ├── product/[id].js
+│   │   └── _app.js
+│   ├── styles/
+│   │   ├── globals.css
+│   │   └── Home.module.css
+├── middleware.js
+├── .env.local
+├── package.json
+├── next.config.js
+└── README.md
+
 #  🛠️ Tech Stack
 - Framework: Next.js (v14+)
 - Styling: Tailwind CSS
