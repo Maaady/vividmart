@@ -10,26 +10,26 @@ This project demonstrates proficiency in Next.js, Tailwind CSS, and clean, scala
 - Secure Deployment: Password-protected live site for testing.
 # 📂 Project Structure
 
-vividmart/
-├── public/
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   ├── Header.js
-│   │   ├── ProductCard.js
-│   │   └── ProductList.js
-│   ├── pages/
-│   │   ├── index.js
-│   │   ├── product/[id].js
-│   │   └── _app.js
-│   ├── styles/
-│   │   ├── globals.css
-│   │   └── Home.module.css
-├── middleware.js
-├── .env.local
-├── package.json
-├── next.config.js
-└── README.md
+- vividmart/
+- ├── public/
+- │   └── favicon.ico
+- ├── src/
+- │   ├── components/
+- │   │   ├── Header.js
+- │   │   ├── ProductCard.js
+- │   │   └── ProductList.js
+- │   ├── pages/
+- │   │   ├── index.js
+- │   │   ├── product/[id].js
+- │   │   └── _app.js
+- │   ├── styles/
+- │   │   ├── globals.css
+- │   │   └── Home.module.css
+- ├── middleware.js
+- ├── .env.local
+- ├── package.json
+- ├── next.config.js
+- └── README.md
 
 #  🛠️ Tech Stack
 - Framework: Next.js (v14+)
